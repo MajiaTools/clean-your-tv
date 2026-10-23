@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Directory: Android TV Debloat Tools, Clean Launchers & Fire TV Projects (2026)</title>
+<meta name="description" content="Every worthwhile open-source project to clean up your TV, in one checked list: CleanYourTV, Universal Android Debloater, DumbTV, Aerial TV and 31 more — debloat tools, clean launchers, Fire TV kits, one-prompt AI setups and ad-free media apps, with GitHub stars and picking advice.">
+<link rel="canonical" href="https://majiatools.github.io/clean-your-tv/">
+<meta property="og:title" content="GitHub Directory: Clean Up Your TV with Open Source">
+<meta property="og:description" content="31 checked GitHub projects to debloat Android TV & Fire TV and replace the ad-heavy home screen. Stars checked October 24, 2026.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://majiatools.github.io/clean-your-tv/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "GitHub Directory: Android TV Debloat Tools, Clean Launchers & Fire TV Projects", "url": "https://majiatools.github.io/clean-your-tv/", "description": "A curated, checked directory of open-source GitHub projects to debloat Android TV and Fire TV, replace ad-heavy home screens, and set up a clean TV \u2014 with star counts, platforms and picking advice.", "dateModified": "2026-10-24", "inLanguage": "en", "isPartOf": {"@type": "WebSite", "name": "Clean Your TV Guide", "url": "https://clean-your-tv.net/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best GitHub project to remove ads from an Android TV?", "acceptedAnswer": {"@type": "Answer", "text": "CleanYourTV (Gathin23/cleanyourtv) is the current default: it debloats over Wi-Fi and installs a clean Apple TV-style home in one flow. For manual control, Universal Android Debloater gives you a GUI over every package. Fire TV owners should start with DumbTV instead \u2014 Fire OS blocks some Android TV methods."}}, {"@type": "Question", "name": "Are these tools safe? Can I undo a debloat?", "acceptedAnswer": {"@type": "Answer", "text": "The projects listed here work over ADB without root and disable rather than delete system apps, so changes can be re-enabled. That said, disabling the wrong package can still break casting, voice search or updates \u2014 follow each project's per-brand package list, and keep a factory-reset path in mind."}}, {"@type": "Question", "name": "My TV is a Samsung or LG. Which of these work?", "acceptedAnswer": {"@type": "Answer", "text": "Most ADB tools only work on Android TV / Google TV and Fire TV. Free My TV is the exception in this directory: it covers LG webOS and Samsung Tizen home screens as well."}}, {"@type": "Question", "name": "What does 'one-prompt setup' mean?", "acceptedAnswer": {"@type": "Answer", "text": "Several October 2026 projects (TV Detox, TV Home, TV Vibehack, DumbTV) ship as a repo plus a prompt: you open the repo in an AI coding agent such as Claude Code or Codex, and the agent runs the ADB commands for you, asking before anything destructive. You still need a computer on the same Wi-Fi as the TV."}}, {"@type": "Question", "name": "How often is this directory updated?", "acceptedAnswer": {"@type": "Answer", "text": "Star counts and the project list were last checked on October 24, 2026 against the GitHub API. New TV cleanup projects are appearing weekly right now; we re-check the list and add new entries as they gain traction."}}]}</script>
+<style>
+:root{--bg:#101a30;--panel:#16233f;--ink:#eef2fa;--mut:#9fb0cc;--acc:#5ec8f2;--line:#26365a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+a{color:var(--acc)}.wrap{max-width:1120px;margin:0 auto;padding:24px 18px 64px}
+header.hero{padding:36px 0 8px}h1{font-size:2rem;line-height:1.25;margin:0 0 12px}
+.lede{color:var(--mut);max-width:760px}nav.toc{margin:18px 0;color:var(--mut)}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 6px;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5}
+.controls input{flex:1;min-width:220px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.chip{padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.chip.on{background:var(--acc);color:#0b1526;border-color:var(--acc)}
+section{margin-top:42px}h2{font-size:1.45rem;margin:0 0 6px}.sec-intro{color:var(--mut);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.card-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}.card h3{margin:0;font-size:1.08rem}.card h3 a{color:var(--ink);text-decoration:none}
+.stars{color:#ffd76a;white-space:nowrap;font-weight:600}.repo{color:var(--mut);font-size:.85rem}.card p{margin:0}.best{color:var(--mut)}.best strong{color:var(--ink)}
+.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:.75rem;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--mut)}
+.gh{margin-top:auto;font-weight:600;text-decoration:none}
+details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+footer{margin-top:56px;color:var(--mut);font-size:.9rem;border-top:1px solid var(--line);padding-top:18px}
+.hide{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<p><a href="https://clean-your-tv.net/">← Clean Your TV Guide</a></p>
+<h1>GitHub Directory: Clean Up Your TV with Open Source</h1>
+<p class="lede">In October 2026, one project — <a href="https://github.com/Gathin23/cleanyourtv" rel="noopener" target="_blank">CleanYourTV</a> — kicked off an open-source wave: dozens of GitHub projects now debloat Android TVs, replace ad-heavy home screens and automate the whole setup. This directory tracks the ones worth your time: <strong>31 projects, checked by hand against GitHub on October 24, 2026</strong>, with star counts, supported platforms and honest picking advice. New to this? Start with the step-by-step guides on <a href="https://clean-your-tv.net/guides/">the guides hub</a> or check <a href="https://clean-your-tv.net/devices/">whether your TV model is covered</a>.</p>
+<nav class="toc"><a href="#debloat">Debloat & Cleanup</a> · <a href="#launchers">Clean Launchers</a> · <a href="#firetv">Fire TV</a> · <a href="#ai-setup">One-Prompt & AI-Agent Setups</a> · <a href="#media">Ad-Free Media Apps</a> · <a href="#tools">Tools & Screensavers</a> · <a href="#faq">FAQ</a></nav>
+<div class="controls">
+<input id="q" type="search" placeholder="Search projects, brands, platforms… (e.g. TCL, Fire TV, launcher)" aria-label="Search projects">
+<button class="chip on" data-filter="all">All</button>
+<button class="chip" data-filter="debloat">Debloat & Cleanup</button><button class="chip" data-filter="launchers">Clean Launchers</button><button class="chip" data-filter="firetv">Fire TV</button><button class="chip" data-filter="ai-setup">One-Prompt & AI-Agent Setups</button><button class="chip" data-filter="media">Ad-Free Media Apps</button><button class="chip" data-filter="tools">Tools & Screensavers</button>
+</div>
+<p id="count" class="lede"></p>
+</header>
+<section id="debloat">
+<h2>Debloat & Cleanup</h2><p class="sec-intro">Remove ads, trackers and pre-installed bloat over ADB — no root, reversible.</p>
+<div class="grid">
+<article class="card" data-cat="debloat" data-search="cleanyourtv gathin23/cleanyourtv android tv google tv">
+  <div class="card-top"><h3><a href="https://github.com/Gathin23/cleanyourtv" rel="noopener" target="_blank">CleanYourTV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 27,419</span></div>
+  <div class="repo">Gathin23/cleanyourtv · Java</div>
+  <p>The project that started the October 2026 wave. Debloats almost any Android or Google TV over Wi-Fi and replaces the ad-heavy stock home with a calm, Apple TV-style launcher. Ships per-brand package lists covering 150+ models.</p>
+  <p class="best"><strong>Best for:</strong> Start here if you want one guided flow instead of hand-picking tools.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Google TV</span></div>
+  <a class="gh" href="https://github.com/Gathin23/cleanyourtv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="debloat" data-search="universal android debloater (uad) 0x192/universal-android-debloater android tv android windows / macos / linux">
+  <div class="card-top"><h3><a href="https://github.com/0x192/universal-android-debloater" rel="noopener" target="_blank">Universal Android Debloater (UAD)</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 20,236</span></div>
+  <div class="repo">0x192/universal-android-debloater · Rust</div>
+  <p>The long-standing cross-platform GUI for removing pre-installed packages over ADB without root. Community-maintained package lists label what is safe to remove, what is questionable, and what will break things.</p>
+  <p class="best"><strong>Best for:</strong> Power users who want a visual package manager for any Android device, TV included.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Android</span><span class="tag">Windows / macOS / Linux</span></div>
+  <a class="gh" href="https://github.com/0x192/universal-android-debloater" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="debloat" data-search="free my tv simbasjungles/free-my-tv google tv lg webos samsung tizen">
+  <div class="card-top"><h3><a href="https://github.com/simbasjungles/free-my-tv" rel="noopener" target="_blank">Free My TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 3,865</span></div>
+  <div class="repo">simbasjungles/free-my-tv · —</div>
+  <p>A fast, ad-free home screen that goes beyond Android: it also covers LG webOS and Samsung Tizen sets that ADB tools cannot touch. Every change has a one-button undo.</p>
+  <p class="best"><strong>Best for:</strong> LG and Samsung owners who are locked out of the Android TV toolbox.</p>
+  <div class="tags"><span class="tag">Google TV</span><span class="tag">LG webOS</span><span class="tag">Samsung Tizen</span></div>
+  <a class="gh" href="https://github.com/simbasjungles/free-my-tv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="debloat" data-search="android tv debloat toolkit seun-novodev/android-tv-debloat-toolkit android tv">
+  <div class="card-top"><h3><a href="https://github.com/seun-novodev/android-tv-debloat-toolkit" rel="noopener" target="_blank">Android TV Debloat Toolkit</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 770</span></div>
+  <div class="repo">seun-novodev/android-tv-debloat-toolkit · Python</div>
+  <p>A lightweight Python toolkit to debloat a TV, sideload APKs and apply common tweaks from one menu-driven script.</p>
+  <p class="best"><strong>Best for:</strong> A small, readable script you can audit before you run it.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/seun-novodev/android-tv-debloat-toolkit" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="debloat" data-search="clean android tv devcelio/clean-android-tv android tv">
+  <div class="card-top"><h3><a href="https://github.com/devcelio/clean-android-tv" rel="noopener" target="_blank">Clean Android TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 35</span></div>
+  <div class="repo">devcelio/clean-android-tv · Shell</div>
+  <p>Plain ADB shell scripts plus a step-by-step guide to debloat and speed up an Android TV. Nothing hidden: every command is in the open.</p>
+  <p class="best"><strong>Best for:</strong> Minimalists who prefer raw ADB commands over GUI tools.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/devcelio/clean-android-tv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="debloat" data-search="debloat tcl android tv chrissy-dev/debloat-tlc-android-tv tcl android tv">
+  <div class="card-top"><h3><a href="https://github.com/chrissy-dev/debloat-tlc-android-tv" rel="noopener" target="_blank">Debloat TCL Android TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 32</span></div>
+  <div class="repo">chrissy-dev/debloat-tlc-android-tv · Shell</div>
+  <p>A TCL-focused debloat script set: the exact packages one TCL owner removed, with notes on what each one does.</p>
+  <p class="best"><strong>Best for:</strong> TCL owners who want a model-family-specific list instead of a generic one.</p>
+  <div class="tags"><span class="tag">TCL</span><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/chrissy-dev/debloat-tlc-android-tv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="debloat" data-search="tcl debloat robinlennox/tcl-debloat tcl android tv">
+  <div class="card-top"><h3><a href="https://github.com/robinlennox/tcl-debloat" rel="noopener" target="_blank">TCL Debloat</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 16</span></div>
+  <div class="repo">robinlennox/tcl-debloat · Shell</div>
+  <p>A second, independent TCL bloatware removal list. Useful as a cross-check before disabling anything on a TCL set.</p>
+  <p class="best"><strong>Best for:</strong> Cross-checking a TCL package before you disable it.</p>
+  <div class="tags"><span class="tag">TCL</span><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/robinlennox/tcl-debloat" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+</div>
+</section><section id="launchers">
+<h2>Clean Launchers</h2><p class="sec-intro">Replacement home screens with no ads and no recommendation feeds.</p>
+<div class="grid">
+<article class="card" data-cat="launchers" data-search="aerial tv pengchujin/aerial-tv android tv xiaomi tcl">
+  <div class="card-top"><h3><a href="https://github.com/pengchujin/aerial-tv" rel="noopener" target="_blank">Aerial TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 3,782</span></div>
+  <div class="repo">pengchujin/aerial-tv · Kotlin</div>
+  <p>A tvOS-inspired open-source launcher built for China-market TVs (Xiaomi, TCL and others): no ads, no recommendations row, and it takes over the home button on boot.</p>
+  <p class="best"><strong>Best for:</strong> Xiaomi / TCL owners who want a clean Chinese-market-friendly home screen.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Xiaomi</span><span class="tag">TCL</span></div>
+  <a class="gh" href="https://github.com/pengchujin/aerial-tv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="androidtvlauncher jackyandroid/androidtvlauncher android tv">
+  <div class="card-top"><h3><a href="https://github.com/JackyAndroid/AndroidTVLauncher" rel="noopener" target="_blank">AndroidTVLauncher</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 3,140</span></div>
+  <div class="repo">JackyAndroid/AndroidTVLauncher · Java</div>
+  <p>One of the oldest open Leanback-style launchers. Plain grid, no feeds, no ads — a safe baseline replacement for the stock home on older boxes.</p>
+  <p class="best"><strong>Best for:</strong> Older Android TV boxes that struggle with heavier launchers.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/JackyAndroid/AndroidTVLauncher" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="tv launcher (nielsvanvelzen) nielsvanvelzen/tv-launcher android tv">
+  <div class="card-top"><h3><a href="https://github.com/nielsvanvelzen/tv-launcher" rel="noopener" target="_blank">TV Launcher (nielsvanvelzen)</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 496</span></div>
+  <div class="repo">nielsvanvelzen/tv-launcher · Kotlin</div>
+  <p>An experimental, deliberately simple big-screen launcher from a Jellyfin contributor. Clean rows, quick search, nothing trying to sell you content.</p>
+  <p class="best"><strong>Best for:</strong> Trying a lightweight modern launcher that stays out of the way.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/nielsvanvelzen/tv-launcher" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="ltvlauncher leanbitlab-org/ltvlauncher android tv">
+  <div class="card-top"><h3><a href="https://github.com/leanbitlab-org/LtvLauncher" rel="noopener" target="_blank">LtvLauncher</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 412</span></div>
+  <div class="repo">leanbitlab-org/LtvLauncher · Dart</div>
+  <p>A minimal open-source launcher with a Wi-Fi data-usage widget and an OLED-friendly built-in screensaver. Built for calm, dark living rooms.</p>
+  <p class="best"><strong>Best for:</strong> OLED owners who want burn-in-aware, minimal home screens.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/leanbitlab-org/LtvLauncher" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="tigris lesnolie/tigris android tv google tv">
+  <div class="card-top"><h3><a href="https://github.com/lesnolie/Tigris" rel="noopener" target="_blank">Tigris</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 410</span></div>
+  <div class="repo">lesnolie/Tigris · Kotlin</div>
+  <p>A tvOS 26-style launcher with a Liquid Glass dock, Top Shelf and a glass control center, plus photo screensavers. The most design-forward option in this wave.</p>
+  <p class="best"><strong>Best for:</strong> If the Apple TV look is the whole point, this is the closest match.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Google TV</span></div>
+  <a class="gh" href="https://github.com/lesnolie/Tigris" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="monet launcher klevico/monet-launcher android tv">
+  <div class="card-top"><h3><a href="https://github.com/Klevico/Monet-Launcher" rel="noopener" target="_blank">Monet Launcher</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 276</span></div>
+  <div class="repo">Klevico/Monet-Launcher · —</div>
+  <p>An Android TV launcher with Material You dynamic colors. Ships sideloadable APKs for devices the Play Store refuses to serve.</p>
+  <p class="best"><strong>Best for:</strong> Google TV sticks where the Play Store marks other launchers incompatible.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/Klevico/Monet-Launcher" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="guizang tv op7418/guizang-tv xiaomi android tv">
+  <div class="card-top"><h3><a href="https://github.com/op7418/guizang-tv" rel="noopener" target="_blank">Guizang TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 217</span></div>
+  <div class="repo">op7418/guizang-tv · Java</div>
+  <p>A simple big-text Android home screen tuned for Xiaomi TVs in China: large-type lists, wallpaper rotation and one-tap HDMI inputs for parents and grandparents.</p>
+  <p class="best"><strong>Best for:</strong> Setting up a TV for older family members on a Xiaomi set.</p>
+  <div class="tags"><span class="tag">Xiaomi</span><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/op7418/guizang-tv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="tv home zh mclhm8182/tvhome-zh android tv">
+  <div class="card-top"><h3><a href="https://github.com/mclhm8182/tvhome-zh" rel="noopener" target="_blank">TV Home ZH</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 211</span></div>
+  <div class="repo">mclhm8182/tvhome-zh · Java</div>
+  <p>An Apple TV-style launcher for Android TV with a ready-to-install APK — no building from source. Chinese-language build of the tv-home idea.</p>
+  <p class="best"><strong>Best for:</strong> You want the tv-home look with a prebuilt APK and Chinese UI.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/mclhm8182/tvhome-zh" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="launchers" data-search="glass tv cocombee/glass-tv android tv google tv">
+  <div class="card-top"><h3><a href="https://github.com/cocombee/glass-tv" rel="noopener" target="_blank">Glass TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 106</span></div>
+  <div class="repo">cocombee/glass-tv · Java</div>
+  <p>Debloats your TV over Wi-Fi, then lands you on a glass-style home screen. Part of the October wave of CleanYourTV-inspired all-in-ones.</p>
+  <p class="best"><strong>Best for:</strong> A newer all-in-one alternative if CleanYourTV does not fit your model.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Google TV</span></div>
+  <a class="gh" href="https://github.com/cocombee/glass-tv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+</div>
+</section><section id="firetv">
+<h2>Fire TV</h2><p class="sec-intro">Amazon's Fire OS needs its own tools. These are built for it.</p>
+<div class="grid">
+<article class="card" data-cat="firetv" data-search="dumbtv humblemuzzu/dumbtv fire tv fire os">
+  <div class="card-top"><h3><a href="https://github.com/humblemuzzu/dumbtv" rel="noopener" target="_blank">DumbTV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 1,363</span></div>
+  <div class="repo">humblemuzzu/dumbtv · Java</div>
+  <p>The Fire TV counterpart of the wave: removes ads, tracking and clutter over ADB with no root, and every step can be undone. Ends on a quiet, minimal home screen.</p>
+  <p class="best"><strong>Best for:</strong> Fire TV Stick and Fire TV Edition owners — start here.</p>
+  <div class="tags"><span class="tag">Fire TV</span><span class="tag">Fire OS</span></div>
+  <a class="gh" href="https://github.com/humblemuzzu/dumbtv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="firetv" data-search="fire tv glass launcher ivantrj/firetv-glass-launcher fire tv">
+  <div class="card-top"><h3><a href="https://github.com/ivantrj/firetv-glass-launcher" rel="noopener" target="_blank">Fire TV Glass Launcher</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 19</span></div>
+  <div class="repo">ivantrj/firetv-glass-launcher · Java</div>
+  <p>Debloats a Fire TV Stick and replaces Amazon&#x27;s home screen with Glass, a small and fast launcher that does not phone home.</p>
+  <p class="best"><strong>Best for:</strong> A launcher-only swap after you have already debloated.</p>
+  <div class="tags"><span class="tag">Fire TV</span></div>
+  <a class="gh" href="https://github.com/ivantrj/firetv-glass-launcher" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="firetv" data-search="fire tv clean root toolkit saisarathbb/firetv-clean-root fire tv fire os 7">
+  <div class="card-top"><h3><a href="https://github.com/saisarathbb/firetv-clean-root" rel="noopener" target="_blank">Fire TV Clean Root Toolkit</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 9</span></div>
+  <div class="repo">saisarathbb/firetv-clean-root · Java</div>
+  <p>Native launcher replacement, bloatware disablement and an in-memory root toolkit for Fire OS 7 devices. Advanced and device-specific — read the warnings first.</p>
+  <p class="best"><strong>Best for:</strong> Advanced users on Fire OS 7 who understand the root risks.</p>
+  <div class="tags"><span class="tag">Fire TV</span><span class="tag">Fire OS 7</span></div>
+  <a class="gh" href="https://github.com/saisarathbb/firetv-clean-root" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+</div>
+</section><section id="ai-setup">
+<h2>One-Prompt & AI-Agent Setups</h2><p class="sec-intro">The October 2026 wave: hand the repo to Claude Code or Codex and let the agent do the setup.</p>
+<div class="grid">
+<article class="card" data-cat="ai-setup" data-search="tv home mihirgupta0900/tv-home android tv">
+  <div class="card-top"><h3><a href="https://github.com/mihirgupta0900/tv-home" rel="noopener" target="_blank">TV Home</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 420</span></div>
+  <div class="repo">mihirgupta0900/tv-home · Java</div>
+  <p>Debloat a slow, ad-filled TV over Wi-Fi and give it a fast Apple TV-style home — driven by a single prompt to your coding agent, with the repo holding the resulting setup.</p>
+  <p class="best"><strong>Best for:</strong> Seeing how the one-prompt workflow compares with CleanYourTV.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/mihirgupta0900/tv-home" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="ai-setup" data-search="tv detox ansub/tv-detox android tv">
+  <div class="card-top"><h3><a href="https://github.com/Ansub/tv-detox" rel="noopener" target="_blank">TV Detox</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 1,359</span></div>
+  <div class="repo">Ansub/tv-detox · —</div>
+  <p>Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the exact prompt used to clean the TV up.</p>
+  <p class="best"><strong>Best for:</strong> You already use Claude Code / Codex and want the prompt, not an app.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/Ansub/tv-detox" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="ai-setup" data-search="tv vibehack toomramcharan/tv-vibehack android tv google tv">
+  <div class="card-top"><h3><a href="https://github.com/ToomRamcharan/tv-vibehack" rel="noopener" target="_blank">TV Vibehack</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 299</span></div>
+  <div class="repo">ToomRamcharan/tv-vibehack · Java</div>
+  <p>Reverse-engineers your TV&#x27;s stock behaviour: fail-safe direct-boot launcher, remote hotkey remapping and deep settings access, all agent-driven.</p>
+  <p class="best"><strong>Best for:</strong> Tinkerers who want to remap remote buttons and boot straight into a clean home.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Google TV</span></div>
+  <a class="gh" href="https://github.com/ToomRamcharan/tv-vibehack" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="ai-setup" data-search="urtv tshi-dev/urtv android tv google tv">
+  <div class="card-top"><h3><a href="https://github.com/tshi-dev/UrTV" rel="noopener" target="_blank">UrTV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 113</span></div>
+  <div class="repo">tshi-dev/UrTV · Java</div>
+  <p>An Arabic home screen and Saudi screensaver for Android / Google TV plus a safe speed-up pass, set up by your AI agent.</p>
+  <p class="best"><strong>Best for:</strong> Arabic-speaking households — the only localized option in this wave.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Google TV</span></div>
+  <a class="gh" href="https://github.com/tshi-dev/UrTV" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="ai-setup" data-search="cleanyourtv phone app (community) udhaykumarbala/cleanyourtv-app android phone android tv">
+  <div class="card-top"><h3><a href="https://github.com/udhaykumarbala/cleanyourtv-app" rel="noopener" target="_blank">CleanYourTV Phone App (community)</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 45</span></div>
+  <div class="repo">udhaykumarbala/cleanyourtv-app · Kotlin</div>
+  <p>A community-built phone companion for CleanYourTV: clean up an Android TV from your phone, with no laptop and no coding agent in the loop.</p>
+  <p class="best"><strong>Best for:</strong> No computer available — run the cleanup from your phone instead.</p>
+  <div class="tags"><span class="tag">Android phone</span><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/udhaykumarbala/cleanyourtv-app" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+</div>
+</section><section id="media">
+<h2>Ad-Free Media Apps</h2><p class="sec-intro">Once the home screen is clean, replace the apps that pushed ads in the first place.</p>
+<div class="grid">
+<article class="card" data-cat="media" data-search="smarttube yuliskov/smarttube android tv fire tv">
+  <div class="card-top"><h3><a href="https://github.com/yuliskov/SmartTube" rel="noopener" target="_blank">SmartTube</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 35,407</span></div>
+  <div class="repo">yuliskov/SmartTube · Java</div>
+  <p>The most popular open YouTube client for TVs: no ads, SponsorBlock built in, and a UI designed for the remote. The natural finishing touch after a debloat.</p>
+  <p class="best"><strong>Best for:</strong> Replacing the stock YouTube app on any Android TV or Fire TV.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Fire TV</span></div>
+  <a class="gh" href="https://github.com/yuliskov/SmartTube" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="media" data-search="kodi xbmc/xbmc android tv fire tv all platforms">
+  <div class="card-top"><h3><a href="https://github.com/xbmc/xbmc" rel="noopener" target="_blank">Kodi</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 21,372</span></div>
+  <div class="repo">xbmc/xbmc · C++</div>
+  <p>The award-winning open media center. Heavy, endlessly extensible, and completely free of the recommendation feeds that clutter stock TV homes.</p>
+  <p class="best"><strong>Best for:</strong> A full media-center hub for local files and your own library.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Fire TV</span><span class="tag">all platforms</span></div>
+  <a class="gh" href="https://github.com/xbmc/xbmc" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="media" data-search="jellyfin for android tv jellyfin/jellyfin-androidtv android tv fire tv">
+  <div class="card-top"><h3><a href="https://github.com/jellyfin/jellyfin-androidtv" rel="noopener" target="_blank">Jellyfin for Android TV</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 4,646</span></div>
+  <div class="repo">jellyfin/jellyfin-androidtv · Kotlin</div>
+  <p>The official Android TV client for the Jellyfin media server. Your library, your home screen, no tracking and no upsells.</p>
+  <p class="best"><strong>Best for:</strong> You run (or want) a Jellyfin server for your own media.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Fire TV</span></div>
+  <a class="gh" href="https://github.com/jellyfin/jellyfin-androidtv" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+</div>
+</section><section id="tools">
+<h2>Tools & Screensavers</h2><p class="sec-intro">Setup utilities, mirroring and the finishing touches.</p>
+<div class="grid">
+<article class="card" data-cat="tools" data-search="scrcpy genymobile/scrcpy windows / macos / linux android tv">
+  <div class="card-top"><h3><a href="https://github.com/Genymobile/scrcpy" rel="noopener" target="_blank">scrcpy</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 152,968</span></div>
+  <div class="repo">Genymobile/scrcpy · C</div>
+  <p>Mirror and control an Android device from your computer over USB or Wi-Fi. Indispensable while setting up a TV: type, click and install with keyboard and mouse.</p>
+  <p class="best"><strong>Best for:</strong> Driving the TV setup from your laptop instead of the remote.</p>
+  <div class="tags"><span class="tag">Windows / macOS / Linux</span><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/Genymobile/scrcpy" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="tools" data-search="aerial views theothernt/aerialviews android tv google tv fire tv shield">
+  <div class="card-top"><h3><a href="https://github.com/theothernt/AerialViews" rel="noopener" target="_blank">Aerial Views</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 1,113</span></div>
+  <div class="repo">theothernt/AerialViews · Kotlin</div>
+  <p>The Apple TV aerial videos as a proper screensaver for Android TV, Google TV, Shield and Fire TV — including Dolby Vision clips on supported sets.</p>
+  <p class="best"><strong>Best for:</strong> Finishing the Apple TV look with the matching screensaver.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Google TV</span><span class="tag">Fire TV</span><span class="tag">Shield</span></div>
+  <a class="gh" href="https://github.com/theothernt/AerialViews" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="tools" data-search="smarttv toolkit xiazheteng8/smarttv-toolkit android tv windows">
+  <div class="card-top"><h3><a href="https://github.com/xiazheteng8/SmartTV-Toolkit" rel="noopener" target="_blank">SmartTV Toolkit</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 216</span></div>
+  <div class="repo">xiazheteng8/SmartTV-Toolkit · Batchfile</div>
+  <p>A Windows batch-file toolkit collecting common smart-TV ADB jobs: debloat batches, APK installs and launcher swaps in menu form.</p>
+  <p class="best"><strong>Best for:</strong> Windows users who want the common jobs pre-scripted.</p>
+  <div class="tags"><span class="tag">Android TV</span><span class="tag">Windows</span></div>
+  <a class="gh" href="https://github.com/xiazheteng8/SmartTV-Toolkit" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+<article class="card" data-cat="tools" data-search="android tv toolkit victortran1023/android-tv-toolkit android tv">
+  <div class="card-top"><h3><a href="https://github.com/VictorTran1023/android-tv-toolkit" rel="noopener" target="_blank">Android TV Toolkit</a></h3><span class="stars" title="GitHub stars, checked October 24, 2026">★ 80</span></div>
+  <div class="repo">VictorTran1023/android-tv-toolkit · Java</div>
+  <p>A brand-agnostic debugging and tuning toolbox: ADB authorization helpers, per-brand sideloading notes, ad removal and a status HUD.</p>
+  <p class="best"><strong>Best for:</strong> Troubleshooting ADB authorization across different TV brands.</p>
+  <div class="tags"><span class="tag">Android TV</span></div>
+  <a class="gh" href="https://github.com/VictorTran1023/android-tv-toolkit" rel="noopener" target="_blank">View on GitHub →</a>
+</article>
+</div>
+</section>
+<section id="faq"><h2>FAQ</h2>
+<details><summary>What is the best GitHub project to remove ads from an Android TV?</summary><p>CleanYourTV (Gathin23/cleanyourtv) is the current default: it debloats over Wi-Fi and installs a clean Apple TV-style home in one flow. For manual control, Universal Android Debloater gives you a GUI over every package. Fire TV owners should start with DumbTV instead — Fire OS blocks some Android TV methods.</p></details>
+<details><summary>Are these tools safe? Can I undo a debloat?</summary><p>The projects listed here work over ADB without root and disable rather than delete system apps, so changes can be re-enabled. That said, disabling the wrong package can still break casting, voice search or updates — follow each project&#x27;s per-brand package list, and keep a factory-reset path in mind.</p></details>
+<details><summary>My TV is a Samsung or LG. Which of these work?</summary><p>Most ADB tools only work on Android TV / Google TV and Fire TV. Free My TV is the exception in this directory: it covers LG webOS and Samsung Tizen home screens as well.</p></details>
+<details><summary>What does &#x27;one-prompt setup&#x27; mean?</summary><p>Several October 2026 projects (TV Detox, TV Home, TV Vibehack, DumbTV) ship as a repo plus a prompt: you open the repo in an AI coding agent such as Claude Code or Codex, and the agent runs the ADB commands for you, asking before anything destructive. You still need a computer on the same Wi-Fi as the TV.</p></details>
+<details><summary>How often is this directory updated?</summary><p>Star counts and the project list were last checked on October 24, 2026 against the GitHub API. New TV cleanup projects are appearing weekly right now; we re-check the list and add new entries as they gain traction.</p></details>
+</section>
+<footer>
+<p>Star counts are a snapshot from the GitHub API, checked October 24, 2026; they drift daily. This is an independent directory — Clean Your TV Guide is not affiliated with GitHub or with the projects listed. Project descriptions are our own summaries; trademarks belong to their owners. Spotted a project we should add, or one that has been abandoned? The list is re-checked weekly.</p>
+<p>More on this site: <a href="https://clean-your-tv.net/guides/">setup guides</a> · <a href="https://clean-your-tv.net/brands/">brand hubs (Sony, TCL, Xiaomi)</a> · <a href="https://clean-your-tv.net/downloads/">downloads</a> · <a href="https://clean-your-tv.net/blog/cleanyourtv-vs-a-tv-launcher/">CleanYourTV vs a TV launcher</a></p>
+</footer>
+</div>
+<script>
+const q=document.getElementById('q'),cards=[...document.querySelectorAll('.card')],count=document.getElementById('count');
+let f='all';
+function apply(){const t=q.value.trim().toLowerCase();let n=0;
+cards.forEach(c=>{const okF=f==='all'||c.dataset.cat===f;const okT=!t||c.dataset.search.includes(t);const show=okF&&okT;c.classList.toggle('hide',!show);if(show)n++;});
+document.querySelectorAll('section[id]').forEach(s=>{if(s.id==='faq')return;const any=[...s.querySelectorAll('.card')].some(c=>!c.classList.contains('hide'));s.classList.toggle('hide',!any);});
+count.textContent=n+' project'+(n===1?'':'s')+' shown';}
+q.addEventListener('input',apply);
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));b.classList.add('on');f=b.dataset.filter;apply();}));
+apply();
+</script>
+</body>
+</html>

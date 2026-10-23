@@ -1,0 +1,403 @@
+{
+ "checked": "2026-10-24",
+ "repos": [
+  {
+   "cat": "debloat",
+   "repo": "Gathin23/cleanyourtv",
+   "name": "CleanYourTV",
+   "stars": 27419,
+   "platforms": [
+    "Android TV",
+    "Google TV"
+   ],
+   "lang": "Java",
+   "blurb": "The project that started the October 2026 wave. Debloats almost any Android or Google TV over Wi-Fi and replaces the ad-heavy stock home with a calm, Apple TV-style launcher. Ships per-brand package lists covering 150+ models.",
+   "best": "Start here if you want one guided flow instead of hand-picking tools."
+  },
+  {
+   "cat": "debloat",
+   "repo": "0x192/universal-android-debloater",
+   "name": "Universal Android Debloater (UAD)",
+   "stars": 20236,
+   "platforms": [
+    "Android TV",
+    "Android",
+    "Windows / macOS / Linux"
+   ],
+   "lang": "Rust",
+   "blurb": "The long-standing cross-platform GUI for removing pre-installed packages over ADB without root. Community-maintained package lists label what is safe to remove, what is questionable, and what will break things.",
+   "best": "Power users who want a visual package manager for any Android device, TV included."
+  },
+  {
+   "cat": "debloat",
+   "repo": "simbasjungles/free-my-tv",
+   "name": "Free My TV",
+   "stars": 3865,
+   "platforms": [
+    "Google TV",
+    "LG webOS",
+    "Samsung Tizen"
+   ],
+   "lang": "—",
+   "blurb": "A fast, ad-free home screen that goes beyond Android: it also covers LG webOS and Samsung Tizen sets that ADB tools cannot touch. Every change has a one-button undo.",
+   "best": "LG and Samsung owners who are locked out of the Android TV toolbox."
+  },
+  {
+   "cat": "debloat",
+   "repo": "seun-novodev/android-tv-debloat-toolkit",
+   "name": "Android TV Debloat Toolkit",
+   "stars": 770,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Python",
+   "blurb": "A lightweight Python toolkit to debloat a TV, sideload APKs and apply common tweaks from one menu-driven script.",
+   "best": "A small, readable script you can audit before you run it."
+  },
+  {
+   "cat": "debloat",
+   "repo": "devcelio/clean-android-tv",
+   "name": "Clean Android TV",
+   "stars": 35,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Shell",
+   "blurb": "Plain ADB shell scripts plus a step-by-step guide to debloat and speed up an Android TV. Nothing hidden: every command is in the open.",
+   "best": "Minimalists who prefer raw ADB commands over GUI tools."
+  },
+  {
+   "cat": "debloat",
+   "repo": "chrissy-dev/debloat-tlc-android-tv",
+   "name": "Debloat TCL Android TV",
+   "stars": 32,
+   "platforms": [
+    "TCL",
+    "Android TV"
+   ],
+   "lang": "Shell",
+   "blurb": "A TCL-focused debloat script set: the exact packages one TCL owner removed, with notes on what each one does.",
+   "best": "TCL owners who want a model-family-specific list instead of a generic one."
+  },
+  {
+   "cat": "debloat",
+   "repo": "robinlennox/tcl-debloat",
+   "name": "TCL Debloat",
+   "stars": 16,
+   "platforms": [
+    "TCL",
+    "Android TV"
+   ],
+   "lang": "Shell",
+   "blurb": "A second, independent TCL bloatware removal list. Useful as a cross-check before disabling anything on a TCL set.",
+   "best": "Cross-checking a TCL package before you disable it."
+  },
+  {
+   "cat": "launchers",
+   "repo": "pengchujin/aerial-tv",
+   "name": "Aerial TV",
+   "stars": 3782,
+   "platforms": [
+    "Android TV",
+    "Xiaomi",
+    "TCL"
+   ],
+   "lang": "Kotlin",
+   "blurb": "A tvOS-inspired open-source launcher built for China-market TVs (Xiaomi, TCL and others): no ads, no recommendations row, and it takes over the home button on boot.",
+   "best": "Xiaomi / TCL owners who want a clean Chinese-market-friendly home screen."
+  },
+  {
+   "cat": "launchers",
+   "repo": "JackyAndroid/AndroidTVLauncher",
+   "name": "AndroidTVLauncher",
+   "stars": 3140,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Java",
+   "blurb": "One of the oldest open Leanback-style launchers. Plain grid, no feeds, no ads — a safe baseline replacement for the stock home on older boxes.",
+   "best": "Older Android TV boxes that struggle with heavier launchers."
+  },
+  {
+   "cat": "launchers",
+   "repo": "nielsvanvelzen/tv-launcher",
+   "name": "TV Launcher (nielsvanvelzen)",
+   "stars": 496,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Kotlin",
+   "blurb": "An experimental, deliberately simple big-screen launcher from a Jellyfin contributor. Clean rows, quick search, nothing trying to sell you content.",
+   "best": "Trying a lightweight modern launcher that stays out of the way."
+  },
+  {
+   "cat": "launchers",
+   "repo": "leanbitlab-org/LtvLauncher",
+   "name": "LtvLauncher",
+   "stars": 412,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Dart",
+   "blurb": "A minimal open-source launcher with a Wi-Fi data-usage widget and an OLED-friendly built-in screensaver. Built for calm, dark living rooms.",
+   "best": "OLED owners who want burn-in-aware, minimal home screens."
+  },
+  {
+   "cat": "launchers",
+   "repo": "lesnolie/Tigris",
+   "name": "Tigris",
+   "stars": 410,
+   "platforms": [
+    "Android TV",
+    "Google TV"
+   ],
+   "lang": "Kotlin",
+   "blurb": "A tvOS 26-style launcher with a Liquid Glass dock, Top Shelf and a glass control center, plus photo screensavers. The most design-forward option in this wave.",
+   "best": "If the Apple TV look is the whole point, this is the closest match."
+  },
+  {
+   "cat": "launchers",
+   "repo": "Klevico/Monet-Launcher",
+   "name": "Monet Launcher",
+   "stars": 276,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "—",
+   "blurb": "An Android TV launcher with Material You dynamic colors. Ships sideloadable APKs for devices the Play Store refuses to serve.",
+   "best": "Google TV sticks where the Play Store marks other launchers incompatible."
+  },
+  {
+   "cat": "launchers",
+   "repo": "op7418/guizang-tv",
+   "name": "Guizang TV",
+   "stars": 217,
+   "platforms": [
+    "Xiaomi",
+    "Android TV"
+   ],
+   "lang": "Java",
+   "blurb": "A simple big-text Android home screen tuned for Xiaomi TVs in China: large-type lists, wallpaper rotation and one-tap HDMI inputs for parents and grandparents.",
+   "best": "Setting up a TV for older family members on a Xiaomi set."
+  },
+  {
+   "cat": "launchers",
+   "repo": "mclhm8182/tvhome-zh",
+   "name": "TV Home ZH",
+   "stars": 211,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Java",
+   "blurb": "An Apple TV-style launcher for Android TV with a ready-to-install APK — no building from source. Chinese-language build of the tv-home idea.",
+   "best": "You want the tv-home look with a prebuilt APK and Chinese UI."
+  },
+  {
+   "cat": "launchers",
+   "repo": "cocombee/glass-tv",
+   "name": "Glass TV",
+   "stars": 106,
+   "platforms": [
+    "Android TV",
+    "Google TV"
+   ],
+   "lang": "Java",
+   "blurb": "Debloats your TV over Wi-Fi, then lands you on a glass-style home screen. Part of the October wave of CleanYourTV-inspired all-in-ones.",
+   "best": "A newer all-in-one alternative if CleanYourTV does not fit your model."
+  },
+  {
+   "cat": "firetv",
+   "repo": "humblemuzzu/dumbtv",
+   "name": "DumbTV",
+   "stars": 1363,
+   "platforms": [
+    "Fire TV",
+    "Fire OS"
+   ],
+   "lang": "Java",
+   "blurb": "The Fire TV counterpart of the wave: removes ads, tracking and clutter over ADB with no root, and every step can be undone. Ends on a quiet, minimal home screen.",
+   "best": "Fire TV Stick and Fire TV Edition owners — start here."
+  },
+  {
+   "cat": "firetv",
+   "repo": "ivantrj/firetv-glass-launcher",
+   "name": "Fire TV Glass Launcher",
+   "stars": 19,
+   "platforms": [
+    "Fire TV"
+   ],
+   "lang": "Java",
+   "blurb": "Debloats a Fire TV Stick and replaces Amazon's home screen with Glass, a small and fast launcher that does not phone home.",
+   "best": "A launcher-only swap after you have already debloated."
+  },
+  {
+   "cat": "firetv",
+   "repo": "saisarathbb/firetv-clean-root",
+   "name": "Fire TV Clean Root Toolkit",
+   "stars": 9,
+   "platforms": [
+    "Fire TV",
+    "Fire OS 7"
+   ],
+   "lang": "Java",
+   "blurb": "Native launcher replacement, bloatware disablement and an in-memory root toolkit for Fire OS 7 devices. Advanced and device-specific — read the warnings first.",
+   "best": "Advanced users on Fire OS 7 who understand the root risks."
+  },
+  {
+   "cat": "ai-setup",
+   "repo": "mihirgupta0900/tv-home",
+   "name": "TV Home",
+   "stars": 420,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Java",
+   "blurb": "Debloat a slow, ad-filled TV over Wi-Fi and give it a fast Apple TV-style home — driven by a single prompt to your coding agent, with the repo holding the resulting setup.",
+   "best": "Seeing how the one-prompt workflow compares with CleanYourTV."
+  },
+  {
+   "cat": "ai-setup",
+   "repo": "Ansub/tv-detox",
+   "name": "TV Detox",
+   "stars": 1359,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "—",
+   "blurb": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the exact prompt used to clean the TV up.",
+   "best": "You already use Claude Code / Codex and want the prompt, not an app."
+  },
+  {
+   "cat": "ai-setup",
+   "repo": "ToomRamcharan/tv-vibehack",
+   "name": "TV Vibehack",
+   "stars": 299,
+   "platforms": [
+    "Android TV",
+    "Google TV"
+   ],
+   "lang": "Java",
+   "blurb": "Reverse-engineers your TV's stock behaviour: fail-safe direct-boot launcher, remote hotkey remapping and deep settings access, all agent-driven.",
+   "best": "Tinkerers who want to remap remote buttons and boot straight into a clean home."
+  },
+  {
+   "cat": "ai-setup",
+   "repo": "tshi-dev/UrTV",
+   "name": "UrTV",
+   "stars": 113,
+   "platforms": [
+    "Android TV",
+    "Google TV"
+   ],
+   "lang": "Java",
+   "blurb": "An Arabic home screen and Saudi screensaver for Android / Google TV plus a safe speed-up pass, set up by your AI agent.",
+   "best": "Arabic-speaking households — the only localized option in this wave."
+  },
+  {
+   "cat": "ai-setup",
+   "repo": "udhaykumarbala/cleanyourtv-app",
+   "name": "CleanYourTV Phone App (community)",
+   "stars": 45,
+   "platforms": [
+    "Android phone",
+    "Android TV"
+   ],
+   "lang": "Kotlin",
+   "blurb": "A community-built phone companion for CleanYourTV: clean up an Android TV from your phone, with no laptop and no coding agent in the loop.",
+   "best": "No computer available — run the cleanup from your phone instead."
+  },
+  {
+   "cat": "media",
+   "repo": "yuliskov/SmartTube",
+   "name": "SmartTube",
+   "stars": 35407,
+   "platforms": [
+    "Android TV",
+    "Fire TV"
+   ],
+   "lang": "Java",
+   "blurb": "The most popular open YouTube client for TVs: no ads, SponsorBlock built in, and a UI designed for the remote. The natural finishing touch after a debloat.",
+   "best": "Replacing the stock YouTube app on any Android TV or Fire TV."
+  },
+  {
+   "cat": "media",
+   "repo": "xbmc/xbmc",
+   "name": "Kodi",
+   "stars": 21372,
+   "platforms": [
+    "Android TV",
+    "Fire TV",
+    "all platforms"
+   ],
+   "lang": "C++",
+   "blurb": "The award-winning open media center. Heavy, endlessly extensible, and completely free of the recommendation feeds that clutter stock TV homes.",
+   "best": "A full media-center hub for local files and your own library."
+  },
+  {
+   "cat": "media",
+   "repo": "jellyfin/jellyfin-androidtv",
+   "name": "Jellyfin for Android TV",
+   "stars": 4646,
+   "platforms": [
+    "Android TV",
+    "Fire TV"
+   ],
+   "lang": "Kotlin",
+   "blurb": "The official Android TV client for the Jellyfin media server. Your library, your home screen, no tracking and no upsells.",
+   "best": "You run (or want) a Jellyfin server for your own media."
+  },
+  {
+   "cat": "tools",
+   "repo": "Genymobile/scrcpy",
+   "name": "scrcpy",
+   "stars": 152968,
+   "platforms": [
+    "Windows / macOS / Linux",
+    "Android TV"
+   ],
+   "lang": "C",
+   "blurb": "Mirror and control an Android device from your computer over USB or Wi-Fi. Indispensable while setting up a TV: type, click and install with keyboard and mouse.",
+   "best": "Driving the TV setup from your laptop instead of the remote."
+  },
+  {
+   "cat": "tools",
+   "repo": "theothernt/AerialViews",
+   "name": "Aerial Views",
+   "stars": 1113,
+   "platforms": [
+    "Android TV",
+    "Google TV",
+    "Fire TV",
+    "Shield"
+   ],
+   "lang": "Kotlin",
+   "blurb": "The Apple TV aerial videos as a proper screensaver for Android TV, Google TV, Shield and Fire TV — including Dolby Vision clips on supported sets.",
+   "best": "Finishing the Apple TV look with the matching screensaver."
+  },
+  {
+   "cat": "tools",
+   "repo": "xiazheteng8/SmartTV-Toolkit",
+   "name": "SmartTV Toolkit",
+   "stars": 216,
+   "platforms": [
+    "Android TV",
+    "Windows"
+   ],
+   "lang": "Batchfile",
+   "blurb": "A Windows batch-file toolkit collecting common smart-TV ADB jobs: debloat batches, APK installs and launcher swaps in menu form.",
+   "best": "Windows users who want the common jobs pre-scripted."
+  },
+  {
+   "cat": "tools",
+   "repo": "VictorTran1023/android-tv-toolkit",
+   "name": "Android TV Toolkit",
+   "stars": 80,
+   "platforms": [
+    "Android TV"
+   ],
+   "lang": "Java",
+   "blurb": "A brand-agnostic debugging and tuning toolbox: ADB authorization helpers, per-brand sideloading notes, ad removal and a status HUD.",
+   "best": "Troubleshooting ADB authorization across different TV brands."
+  }
+ ]
+}
